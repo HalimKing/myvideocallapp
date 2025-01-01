@@ -9,9 +9,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  build: {
-    rollupOptions: {
-      external: ['tailwind-merge'],
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     external: ['tailwind-merge'],
+  //   },
+  // },
 })
